@@ -1,0 +1,16 @@
+.Splitter{
+    z-index: 1002;
+    min-height: 90px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.Splitter-Up {
+    margin-top: -45px;
+    margin-bottom: -28px;
+}
+
+.Splitter-Down {
+    margin-top: -28px;
+    margin-bottom: -45px;
+}

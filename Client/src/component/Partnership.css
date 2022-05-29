@@ -1,0 +1,30 @@
+.Partnership {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.partnerContent {
+    width: 100%;
+    /* top: calc(50% - 90px); */
+    left: 0%;
+}
+
+.partner-label-1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.partner-label-2 {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .partner-label-1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    .partner-label-2 {
+        font-size: 35px;
+    }
+}

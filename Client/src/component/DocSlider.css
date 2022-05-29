@@ -1,0 +1,111 @@
+.DocSlider {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0s;
+
+}
+
+.DocSliderCarousel .carousel-root {
+    width: 100%;
+}
+
+.DocSliderCarousel .carousel.carousel-slider {
+    height: 100%;
+}
+
+.DocSliderCarousel .carousel .control-next.control-arrow:before {
+    border-left: 20px solid #fff;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.DocSliderCarousel .carousel .control-prev.control-arrow:before {
+    border-right: 20px solid #fff;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.DocSliderCarousel .carousel .control-next.control-arrow:before {
+    border-left: 12px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+.DocSliderCarousel .carousel .control-prev.control-arrow:before {
+    border-right: 12px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+.DocSliderCarousel .slider-wrapper.axis-horizontal {
+    height: 100%;
+}
+
+.DocSliderCarousel .slider.animated{
+    height: 100%;
+
+    cursor: grab;
+}
+
+.carousel .slider {
+    height: 100%;
+}
+.doc-slider-header{
+    font-size: 28px;
+    line-height: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.doc-slider-content {
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+
+.slider-button {
+    border-radius: 50px;
+    border-color: #FFFFFF59;
+    color: white;
+    background: transparent;
+    border: 1px solid #fff;
+    font-family: "Cinzel Decorative", Sans-serif;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: center;
+    outline:none;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.slider-button:hover{
+    background-color: white;
+    color: #aaa;
+}
+
+.carousel-li-container {
+    margin: 0px 90px;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .DocSlider {
+        background-image: url('../assets/DocSliderOrg.png') !important;
+    }
+
+    .carousel-li-container{
+        margin: 0px 50px;
+    }
+
+    .doc-slider-content {
+        font-size: 18px;
+    }
+    .slider-button {
+        font-size: 14px;
+    }
+}

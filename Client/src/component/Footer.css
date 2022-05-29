@@ -1,0 +1,99 @@
+.Footer {
+    height: 100vh;
+    
+    background-image: url('../assets/FooterBack.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-container {
+    padding: 0% 8%;
+}
+.copyRight {
+    border-style: dotted;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgba(255, 255, 255, 0.59);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding: 20px;
+    color: #D2CDCD;
+    text-align: left;
+}
+
+.followUs p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.favIcon {    
+    color: #001444;
+    /* font-size: 100%; */
+    border-radius: 50%;
+}
+
+.socialIcon {
+    background: #b1b3b5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.socialLayout {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.socialIcon:hover {
+    width: 37px;
+    height: 37px;
+    background-color: white;
+}
+
+.background-overlay {
+    background-color: #1715155E;
+}
+
+.subscribeInput {
+    border: 1px solid #818a91;
+    background-color: transparent;
+    border-color: #DAD5D5;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px 0px 0px 10px;
+    text-transform: lowercase;
+    font-weight: 300;
+    color: white;
+    font-size: 18px;
+    min-height: 59px;
+    padding: 7px 20px;
+}
+
+.subscribeInput:focus {
+    outline:none;
+}
+
+.subscribeBtn {
+    min-height: 59px;
+    font-size: 18px;
+    color: white;
+    background-color: #2642D300;
+    border-color: #DAD5D5;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    font-weight: 600;
+    font-family: "Cinzel Decorative", Sans-serif;
+}
+
+.subscribeInput::placeholder {
+    color: #ccc;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer-container{
+        padding: 0% 8%;
+    }
+}

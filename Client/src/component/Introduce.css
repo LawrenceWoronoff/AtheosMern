@@ -1,0 +1,42 @@
+.Introduce {
+    height: 100vh;
+}
+
+.back-video {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+}
+
+.introduce-text-container {
+    padding: 0% 55% 0% 0%;
+}
+
+.p_8 {
+    font-size: 26px;
+    line-height: 1.5em;
+    color: #D2CDCD;
+}
+
+.p_12 {
+    font-size: 30px;
+    line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .introduce-text-container {
+        padding: 8%;
+    }
+
+    .p_8 {
+        font-size: 18px;
+    }
+
+    .p_12 {
+        font-size: 22px;
+    }
+}

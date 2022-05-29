@@ -1,0 +1,132 @@
+.Hero {
+    background-image: url('../assets/Hero.webp');
+    height: 125vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.HeroCarousel {
+    height: 180px;
+    width: 70%;
+    /* top: calc(50% - 90px); */
+    left: 15%;
+
+    background-image: url('../assets/Carrusel-Box.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1280px;
+}
+
+.carousel-root {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel .slide .content {
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.25;
+    transition: opacity .35s ease-in-out
+} 
+.carousel .control-dots {
+    margin: 0px !important;
+}
+.carousel.carousel-slider
+{
+    height: 60px ; 
+}
+
+.dot {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel .control-prev.control-arrow {
+    left: 15px !important;
+}
+
+.carousel .control-next.control-arrow {
+    right: 15px !important;
+}
+
+
+.carousel-label{
+    color: #ffffff;
+    font-family: "Trojan Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 20px;
+
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+
+    cursor: grab ;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .Hero {
+        background-image: url('../assets/HeroSM.jpg') !important;
+        height: 100vh !important;
+        background-size: cover !important;
+        background-position: left bottom !important;
+    }
+
+    .HeroCarousel {
+        width: 90%;
+        left: 5%;
+    }
+    .carousel-label {
+        font-size: 16px;
+    }
+
+    .Hero .carousel .control-prev.control-arrow {
+        display: none;
+    }    
+
+    .Hero .carousel .control-next.control-arrow {
+        display: none;
+    }      
+}
+
+@media only screen and (max-width: 768px) {
+    .HeroCarousel {
+        width: 60%;
+        left: 20%;
+        height: 240px;
+        background-image: url('../assets/Carrusel-BoxSM.png') !important;
+    }
+    .carousel-label {
+        font-size: 12px;
+    }
+    .carousel-root {
+        width: 60%;
+        margin: auto;
+    }
+
+    .carousel.carousel-slider
+    {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .HeroCarousel {
+        width: 80%;
+        left: 10%;  
+    }
+}
